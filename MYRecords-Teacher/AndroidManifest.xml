@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.slidertabs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@drawable/logofinal"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:restoreNeedsApplication="true">
+        <activity
+            android:name="com.example.slidertabs.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.HomePage"
+            android:label="@string/title_activity_page_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.CreateClass"
+            android:label="@string/title_activity_page_fragment2" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ClassList"
+            android:label="@string/title_activity_class_list" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.Search"
+            android:label="@string/title_activity_search"
+            android:theme="@style/ListFont" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.DisplayClass"
+            android:label="@string/title_activity_display_class" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.AddRecord"
+            android:label="@string/title_activity_add_record" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ClassChart"
+            android:label="@string/title_activity_view_class_details" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ViewStudentDetails"
+            android:label="@string/title_activity_view_student_details" >
+
+            <!-- android:theme="@style/ListFont" -->
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.EachStudent"
+            android:label="@string/title_activity_each_student" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.UpdateDetails"
+            android:label="@string/title_activity_update_details" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.MarkAttendance"
+            android:label="@string/title_activity_mark_attendance" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ViewAttendance"
+            android:label="@string/title_activity_view_attendance" >
+
+            <!-- android:theme="@style/ListFont" -->
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.AttendanceChart"
+            android:label="@string/title_activity_attendance_chart" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ShowOnce"
+            android:label="@string/title_activity_show_once" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ExportDatabase"
+            android:label="@string/title_activity_export_database" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ExportAttendanceWise"
+            android:label="@string/title_activity_export_attendace_wise" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.EnterRemarks"
+            android:label="@string/title_activity_enter_remarks" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.DisplayClassGrid"
+            android:label="@string/title_activity_display_class_grid" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.Stats"
+            android:label="@string/title_activity_stats" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.StudentStats"
+            android:label="@string/title_activity_student_stats" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.SearchServer"
+            android:label="@string/title_activity_search_server" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ExceltoDb"
+            android:label="@string/title_activity_excelto_db" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ClassDetails"
+            android:label="@string/title_activity_class_details" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.Practice"
+            android:label="@string/title_activity_practice" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.MarksDetails"
+            android:label="@string/title_activity_marks_details" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.EnterMarks"
+            android:label="@string/title_activity_enter_marks" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ViewMarks"
+            android:label="@string/title_activity_view_marks" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ViewMarksChart"
+            android:label="@string/title_activity_view_marks_chart" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.StudentMarksList"
+            android:label="@string/title_activity_student_marks_list" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.EditMarks"
+            android:label="@string/title_activity_edit_marks" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.MarksChart"
+            android:label="@string/title_activity_marks_chart" >
+        </activity>
+        <activity
+            android:name="com.example.slidertabs.ServerURL"
+            android:label="@string/title_activity_server_url" >
+        </activity>
+    </application>
+
+</manifest>

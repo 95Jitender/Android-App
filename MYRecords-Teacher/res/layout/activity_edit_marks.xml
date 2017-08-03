@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".EditMarks" >
+
+  <!--   android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" -->
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view1"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/view1"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#000" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/view1"
+        android:layout_below="@+id/view1"
+        android:layout_margin="0dp"
+        android:layout_marginLeft="5dp"
+        android:background="#fff"
+        android:drawablePadding="0dp"
+        android:drawableRight="@drawable/updatemarks3"
+        android:freezesText="true"
+        android:gravity="center_vertical|center_horizontal|left"
+        android:padding="0dp"
+        android:textColor="#fff" />
+     
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="@drawable/edittext3"
+        android:digits="1234567890."
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Marks"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignLeft="@+id/chart"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/editText1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+</RelativeLayout>

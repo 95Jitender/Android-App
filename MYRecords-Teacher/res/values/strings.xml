@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyRecords-Teacher</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_page_fragment">PageFragment</string>
+    <string name="title_activity_page_fragment2">PageFragment2</string>
+    <string name="title_activity_class_list">ClassList</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_display_class">Class Details</string>
+    <string name="title_activity_add_record">Add Student</string>
+    <string name="title_activity_view_class_details">Class Details</string>
+    <string name="title_activity_view_student_details">Student Details</string>
+    <string name="title_activity_each_student">Student</string>
+    <string name="title_activity_update_details">Update Details</string>
+    <string name="title_activity_mark_attendance">Mark Attendance</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_view_attendance">View Attendance</string>
+    <string name="title_activity_attendance_chart">Attendance Chart</string>
+    <string name="title_activity_show_once">My Records</string>
+    <string name="title_activity_view_student_details2">View Student Details</string>
+    <string name="title_activity_export_database">Export Database</string>
+    <string name="title_activity_export_attendace_wise">Export Attendace</string>
+    <string name="title_activity_about_us">About Us</string>
+
+    <color name="Orange">#e62e00</color>
+
+    <string name="title_activity_enter_remarks">Remarks</string>
+    <string name="title_activity_display_class_grid">Class Details</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_stats">Stats</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_student_stats">StudentStats</string>
+    <string name="title_activity_search_server">SearchServer</string>
+    <string name="title_activity_excelto_db">ExceltoDb</string>
+    <string name="link">192.168.1.37</string>
+    <string name="title_activity_class_details">ClassDetails</string>
+    <string name="title_activity_practice">Practice</string>
+    <string name="title_activity_marks_details">MarksDetails</string>
+    <string name="title_activity_enter_marks">EnterMarks</string>
+    <string name="title_activity_view_marks">ViewMarks</string>
+    <string name="title_activity_view_marks_chart">ViewMarksChart</string>
+    <string name="title_activity_student_marks_list">StudentMarksList</string>
+    <string name="title_activity_edit_marks">EditMarks</string>
+    <string name="title_activity_marks_chart">MarksChart</string>
+    <string name="title_activity_server_url">ServerURL</string>
+
+</resources>

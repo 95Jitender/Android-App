@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e62e00"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DisplayClass" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/backimagee"
+        android:gravity="center_vertical|center_horizontal|left"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:textColor="#fff" 
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button"
+        android:drawableRight="@drawable/deletebuttonicon"
+        android:maxHeight="5dp"
+        android:maxWidth="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:textColor="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignRight="@+id/view1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="352dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/markattendance"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Mark Attendance"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/classdetails"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Class Chart"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/studentdetails"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="View Students Name"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/adduser"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Add Record"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/attendance2"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="View Attendance"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/server"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Upload To Server"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/entermarks"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Enter Marks"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/viewmarks"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="View Marks"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.16"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/markschart"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:text="Marks Chart"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
